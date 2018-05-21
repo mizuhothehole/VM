@@ -1,0 +1,13 @@
+Cautions about the VirtualBox by Oracle
+
+1. When you try to upgrade to a new version:
+ To update VirtualBox, simply run the installer of the updated version
+http://www.oracle.com/technetwork/server-storage/virtualbox/downloads/index.html?ssSourceSiteId=otnjp
+
+
+2.When you want to use the extension functions:
+VirtualBox - 拡張パック（Extension Pack）のダウンロード・インストール
+And you just need to run it. And vertualbox will help ou to install the new functions automatically.
+
+3.Never close a virtual machine by forcement. Because you will have to install the system all again cuz you made a system crash.
+It takes you a long time.
