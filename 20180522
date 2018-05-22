@@ -30,3 +30,7 @@ C:\Program Files\Oracle\VirtualBox>VBoxManage modifyhd e:\vbox\Ubuntu12.04\Ubunt
 u1204-201310-disk1.vdi --resize 30000
 
 Try to use the XXX.vmdk, rather than the XXX-flat.vmdk. Because you named the vmdk something like XXX rather than XXX-flat, right?
+
+vboxmanage clonehd "New.vmdk" "F:\temp\New.vdi" --format vdi
+
+vboxmanage modifyhd "F:\temp\New.vdi" --resize 25720
