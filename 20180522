@@ -16,3 +16,15 @@ It takes you a long time.
 
 5.If you want to install additional functions, remember that you should install it in virtual machine, not windows!
 And you will just run it on the disk of virtual machine.
+
+6. What to do in virtual box when you want to change the storage size ?
+> Change the format from vdmi to vdi:
+using 
+C:\Program Files\Oracle\VirtualBox>VBoxManage clonehd e:\vbox\Ubuntu12.04\Ubuntu1204-201302-disk1.vmdk  e:\vbox\Ubuntu12.04\Ubuntu1204-201310-disk1.vdi --format VDI
+0%...10%...20%...30%...40%...50%...60%...70%...80%...90%...100%
+Clone hard disk created in format 'VDI'. UUID: 455b7aa4-d776-4254-8353-d9b5b3fa1
+09b
+
+> resize: 
+C:\Program Files\Oracle\VirtualBox>VBoxManage modifyhd e:\vbox\Ubuntu12.04\Ubunt
+u1204-201310-disk1.vdi --resize 30000
