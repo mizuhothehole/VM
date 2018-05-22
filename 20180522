@@ -28,3 +28,5 @@ Clone hard disk created in format 'VDI'. UUID: 455b7aa4-d776-4254-8353-d9b5b3fa1
 > resize: 
 C:\Program Files\Oracle\VirtualBox>VBoxManage modifyhd e:\vbox\Ubuntu12.04\Ubunt
 u1204-201310-disk1.vdi --resize 30000
+
+Try to use the XXX.vmdk, rather than the XXX-flat.vmdk. Because you named the vmdk something like XXX rather than XXX-flat, right?
