@@ -34,3 +34,5 @@ Try to use the XXX.vmdk, rather than the XXX-flat.vmdk. Because you named the vm
 vboxmanage clonehd "New.vmdk" "F:\temp\New.vdi" --format vdi
 
 vboxmanage modifyhd "F:\temp\New.vdi" --resize 25720
+
+可以通过snapshots文件夹下面的文件,进行任意的转换.而这种情况下似乎是转换你的备份文件而不是你的源生的系统
